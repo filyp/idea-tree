@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "idea-tree"
+version = "0.1.0"
+description = ""
+authors = ["Filip Sondej <filipsondej@protonmail.com>"]
+license = "LGPL-2.1"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.10"
+numpy = "^1.21.2"
+matplotlib = "^3.4.3"
+sklearn = "^0.0"
+scipy = "^1.7.1"
+ipywidgets = "^7.6.3"
+ipyevents = "^2.0.1"
+voila = "^0.2.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+nb-black = "^1.0.7"
+ipykernel = "^6.2.0"
+pre-commit = "^2.14.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

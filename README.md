@@ -1,1 +1,1 @@
-# reddit-idea-tree
+# Idea Tree
